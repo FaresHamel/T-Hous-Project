@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- pour les characteur du voutre site web -->
+   <meta charset="UTF-8">
+
+  <!-- view port pour le site web pour tout les machines et mobile pc tablet les icrons des machine le site via responsive -->
+  <!--initiale scale pour zoom du sita web  -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- keyword == for find your web site bat the 100 first word in description mabi content your keyword -->
+   <meta name="keywords" content="fares,learning,css,html,meta,charset">
+
+  <!--  desciption ===> what we si in your description page in google or mozila or internetExplolare 160 charachter -->
+   <meta name="description" content="my description and what my site web do ">
+
+  <!-- auther of this web site -->
+   <meta name="author" content="fares hamel Studiert Deutsch Sprache and Sprechen Deutsch انشاءالله">
+
+   <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+   <!-- icon for site -->
+   <link rel="icon" href="/Users/mac/Desktop/Project_HousT/FolderPictures/SVG/home.svg" type="image/icon type">
+   
+    <title>T_Hous</title>
+ 
+    <link rel="stylesheet" href="../CssFolder/index.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Sales', 'Expenses'],
+          ['2018',  1000,      400],
+          ['2019',  1170,      460],
+          ['2020',  660,       1120],
+          ['2021',  1030,      540]
+        ]);
+
+        var options = {
+          title: 'Company Performance',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data,options);
+      }
+    </script>
+
+</head>
+<body>
+    
+    <div class="contaner">
+  
+         <header class="header">
+
+            <div class="conten_icon_Administrater">
+                <span class="icon_site">
+                    <svg viewBox="0 0 200 200">
+                       
+                     </svg>
+                </span>
+               <span class="name_admin_header">Administrator</span>
+            </div>
+            <div class="content_menue">
+                <div class="content_option">
+                    <img src="/Users/mac/Desktop/Project_HousT/FolderPictures/linea_complete_1.0/_arrows/_SVG/arrows_hamburger 2.svg" class="image_menue" alt="bar menue">
+                    <img src="../FolderPictures/search.svg" class="image_search"/>
+                    <input type="search" name="search" id="search" class="input_type_search" placeholder="search....">
+                </div>
+                <div class="content_information">
+
+                    <div class="content_information_noification_mmessages">
+
+                        <div class="content_inforamtion_number_notification">
+                         
+                         <img src="../FolderPictures/notification.svg" class="notification" alt="notification image">
+                         <span class="number_notification number">1</span>
+                        </div>
+                        <div class="content_inforamtion_number_messeges">
+                            
+                            <img src="../FolderPictures/chat.svg" class="messages-box" alt="messages image">
+                            <span class="number_messages number">1</span>
+                        </div>
+                    </div>
+                    <div class="circular--landscape">
+                        <img src="../FolderPictures/infoFares.jpg" alt="admin picture">
+                    </div>
+                    <p class="name_admin_info">fares hamel</p>
+                    
+                </div>
+            </div> 
+         </header>
+
+         <main class="main">
+          <div class="content_left">
+
+            <ul class="liste_travel">
+                <li>
+                   
+                    <div class="contaner_list_items">
+                        <img src="../FolderPictures/ui.svg" class="icon_images dachboard" alt="dachboard">
+                        <span>Dashboard</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contaner_list_items">
+                        <img src="../FolderPictures/email.svg" class="icon_images email" alt="Email">
+                        <span>email</span>
+                    </div>
+                    
+                    </li>
+                <li>
+                    <div class="contaner_list_items">
+                        <img src="../FolderPictures/output.svg" class="icon_images compose" alt="Email">
+                        <span>compose</span>
+                    </div>
+                    </li>
+                <li>
+                    <div class="contaner_list_items">
+                        <img src="../FolderPictures/calendar.svg" class="icon_images calendar" alt="Email">
+                        <span>calendar</span>
+                    </div>
+                   </li>
+                <li>
+                    <div class="contaner_list_items">
+                        <img src="../FolderPictures/comment.svg" class="icon_images comment" alt="Email">
+                        <span>chats</span>
+                    </div>
+                   </li>
+                <li>
+                    <div class="contaner_list_items">
+                        <img src="../FolderPictures/marketing.svg" class="icon_images charts" alt="Email">
+                        <span>charts</span>
+                    </div>
+                   </li>
+                <li>
+                    <div class="contaner_list_items">
+                        <img src="../FolderPictures/writing.svg" class="icon_images forms" alt="Email">
+                        <span class="forms_span">forms</span>
+                    </div>
+                   </li>
+                <li>
+                    <div class="contaner_list_items">
+                        <img src="../FolderPictures/spreadsheet.svg" class="icon_images tabels" alt="Email">
+                        <span>tables</span>
+                        <img src="../FolderPictures/chevron_small_right.svg" alt="f" class="chevron_small_right">
+                    </div>
+                   </li>
+                <li>
+                    <div class="contaner_list_items">
+                        <img src="../FolderPictures/map.svg" class="icon_images map" alt="Email">
+                        <span>map</span>
+                        <img src="../FolderPictures/chevron_small_right.svg" class="chevron_small_right" alt="">
+                    </div>
+                   </li>
+                <li>
+                    <div class="contaner_list_items">
+                        <img src="../FolderPictures/text-documents-line.svg" class="icon_images paper" alt="Email">
+                        <span>paper</span>
+                        <img src="../FolderPictures/chevron_small_right.svg" class="chevron_small_right" alt="">
+                    </div>
+                   </li>
+                <li>
+                    <div class="contaner_list_items">
+                        <img src="../FolderPictures/menu.svg" class="icon_images dachboard" alt="Email">
+                        <span>multiple levles</span>
+                        <img src="../FolderPictures/chevron_small_right.svg" class="chevron_small_right" alt="">
+                    </div>
+                   </li>
+
+            </ul>
+
+          </div>
+          <div class="content_right">
+
+            <div class="content_right_top">
+
+                <div class="total_visit contetn_statistic">
+                 <h6>Total visit</h6>
+                 <div class="content_procentage_graphe">
+                     <img src="../FolderPictures/statistics.svg" class="visit">
+                     <span class="content_procentage visit">75%</span>
+                 </div>
+                </div>
+                <div class="total_page_view contetn_statistic">
+                    <h6>total page views</h6>
+                    <div class="content_procentage_graphe">
+                        <img src="../FolderPictures/statistics.svg" class="pages_views">
+                        <span class="content_procentage pages_views">75%</span>
+                    </div>
+                </div>
+                <div class="unique_visitor contetn_statistic">
+                    <h6>unique visitor</h6>
+                    <div class="content_procentage_graphe">
+                        <img src="../FolderPictures/statistics.svg" class="unique_visitor_i">
+                        <span class="content_procentage unique_visitor_i">75%</span>
+                    </div>
+                </div>
+                <div class="bonce_rate contetn_statistic">
+                    <h6>bouce rate</h6>
+                    <div class="content_procentage_graphe">
+                        <img src="../FolderPictures/statistics.svg" class="bouce_rate">
+                        <span class="content_procentage bouce_rate">75%</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content_right_main">
+                <div class="content_right_main_map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14453505.755640795!2d-7.351591248176374!3d27.819375229959697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7e8a6a28037bd1%3A0x7140bee3abd7f8a2!2sAlgeria!5e0!3m2!1sen!2sdz!4v1595591543889!5m2!1sen!2sdz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>    
+                    
+                <div class="content_right_main_procentages">
+                    <div class="content_right_main_procentages_top">
+             
+                        <div class="content_visitor">
+
+                            <h5 class="number_visitor">100k</h5>
+                            <div class="contnet_label_value_visitor">
+                                <label for="file">visitor form sud Algeria</label><span>69%</span>
+                            </div>
+                            <progress class="progress_bar_from_usa" id="file" value="69" max="100"> 50% </progress>
+
+                        </div>
+                        <div class="content_visitor">
+
+                            <h5 class="number_visitor">50k</h5>
+                            <div class="contnet_label_value_visitor">
+                                <label for="file">visitor form Alge</label><span>80%</span>
+                            </div>
+                            <progress class="progress_bar_from_usa" id="file" value="80" max="100"> 50% </progress>
+
+                        </div>
+                        <div class="content_visitor">
+
+                            <h5 class="number_visitor">90k</h5>
+                            <div class="contnet_label_value_visitor">
+                                <label for="file">visitor form Tamanraçet</label><span>90%</span>
+                            </div>
+                            <progress class="progress_bar_from_usa" id="file" value="75" max="100"> 50% </progress>
+
+                        </div>
+                        <div class="content_visitor">
+
+                            <h5 class="number_visitor">40k</h5>
+                            <div class="contnet_label_value_visitor">
+                                <label for="file">visitor form Bijai</label><span>40%</span>
+                            </div>
+                            <progress class="progress_bar_from_usa" id="file" value="40" max="100"> 50% </progress>
+
+                        </div>
+                        <div class="content_visitor">
+
+                            <h5 class="number_visitor">200k</h5>
+                            <div class="contnet_label_value_visitor">
+                                <label for="file">visitor form skikda</label><span>70%</span>
+                            </div>
+                            <progress class="progress_bar_from_usa" id="file" value="70" max="100"> 70% </progress>
+
+                        </div>
+                        <div class="content_visitor">
+
+                            <h5 class="number_visitor">100k</h5>
+                            <div class="contnet_label_value_visitor">
+                                <label for="file">visitor form sud Algeria</label><span>39%</span>
+                            </div>
+                            <progress class="progress_bar_from_usa" id="file" value="50" max="100"> 50% </progress>
+
+                        </div>
+                        <div class="content_visitor">
+                            <h5 class="number_visitor">20k</h5>
+                            <div class="contnet_label_value_visitor">
+                                <label for="file">visitor form Oran</label><span>30%</span>
+                            </div>
+                            <progress class="progress_bar_from_usa" id="file" value="30" max="100"> 80% </progress>
+
+                        </div>
+                        <div class="content_visitor">
+                            <h5 class="number_visitor">300k</h5>
+                            <div class="contnet_label_value_visitor">
+                                <label for="file">visitor form constantin</label><span>60%</span>
+                            </div>
+                            <progress class="progress_bar_from_usa" id="file" value="60" max="100"> 40% </progress>
+
+                        </div>
+                        <div class="content_visitor">
+                            <h5 class="number_visitor">400k</h5>
+                            <div class="contnet_label_value_visitor">
+                                <label for="file">visitor form Annaba</label><span>90%</span>
+                            </div>
+                            <progress class="progress_bar_from_usa" id="file" value="90" max="100"> 90% </progress>
+
+                        </div>
+
+                    </div>
+                    <div class="content_right_main_procentages_bottom">
+                     
+                        <span>
+                            <svg id="svg" viewbox="0 0 100 100" class="svg_circle">
+                                <circle cx="50" cy="50" r="45" fill="#eee"/>
+                                <path fill="none" stroke-linecap="round" stroke-width="5" stroke="#F97D0B"
+                                      stroke-dasharray="55.5,250.2"
+                                      d="M50 10
+                                         a 40 40 0 0 1 0 80
+                                         a 40 40 0 0 1 0 -80"/>
+                                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">30%</text>
+                              </svg>
+
+                          <h6>New Users</h6>    
+                        </span>
+
+                        <span>
+                            <svg viewbox="0 0 100 100" class="svg_circle">
+                                <circle cx="50" cy="50" r="45" fill="#eee"/>
+                                <path fill="none" stroke-linecap="round" stroke-width="5" stroke="#F93934"
+                                      stroke-dasharray="155.6,125.6"
+                                      d="M50 10
+                                         a 40 40 0 0 1 0 80
+                                         a 40 40 0 0 1 0 -80"/>
+                                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">50%</text>
+                              </svg>
+                              <h6>New Purchases</h6>   
+                          </span>
+            
+                          <span>
+                            <svg viewbox="0 0 100 100" class="svg_circle">
+                                <circle cx="50" cy="50" r="45" fill="#eee"/>
+                                <path fill="none" stroke-linecap="round" stroke-width="5" stroke="#39B5F9"
+                                      stroke-dasharray="221.2,221.2"
+                                      d="M50 10
+                                         a 40 40 0 0 1 0 80
+                                         a 40 40 0 0 1 0 -80"/>
+                                <text x="50" y="50" text-anchor="middle" dy="7" font-size="20">100%</text>
+                              </svg>
+                              <h6>Bounce Rate</h6>   
+                          </span>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="content_right_fluter">
+
+                <div class="content_right_fluter_grave_mmonthly_saler" id="curve_chart"></div>
+                <div class="content_right_fluter_todo_list">
+                    <h6>Todo List</h6>
+                    <ul class="list_todo_content">
+                        <li class="list_todo"><h6 style="display: inline;">Add new Travels</h6></li>
+                        <li class="list_todo"><h6 style="display: inline;">Show new Poducts</h6><span class="fares one">2 Days</span></li>
+                        <li class="list_todo"><h6 style="display: inline;">Give Purchase Report</h6><span class="fares two">3 Minuts</span></li>
+                        <li class="list_todo"><h6 style="display: inline;">List of hot Travels</h6><span class="fares three">not Important</span></li>
+                        <li class="list_todo"><h6 style="display: inline;">Changnew Solds Travels</h6><span class="fares for">Tomorow</span></li>
+                        <li class="list_todo"><h6 style="display: inline;">Give Purchase Report</h6><span class="fares fünf">Done</span></li>
+                    </ul>
+                
+                </div>
+                <div class="content_right_fluter_soles_report">
+                   
+                    <div class="content_header">
+                        <h5>Sales Report</h5>
+                    </div>
+                   
+                    <div class="content_bottom">
+                        
+                        <div class="content_date_description">
+                            <div class="content_date" style="color: #eee; font-size:small;">Desember 2020</div>
+                            <h6 style="color: #eee; font-size:10px; font-weight:100;margin-top: 10px;">Sales Report</h6>
+                        </div>
+                        <h5 style="color: #eee;">$6,000.00</h5>
+
+                    </div>
+                </div>
+                <div class="content_right_fluter_weather">
+
+                    <div class="content_weather_information">
+                      <h6>Monday</h6>
+                      <span class="content_date">Juli, 23 2020</span>
+                    </div>
+
+                </div>
+
+            </div>
+          </div>
+         </main>
+
+    </div>
+    <script src="../JavascriptFolder/index.js"></script>
+</body>
+</html>
